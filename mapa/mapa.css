@@ -1,0 +1,16 @@
+.btn-batalha-1 {
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    width: 110px;
+    height: 30px;
+    font-size: 20px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 5px;
+    animation: mover 1.5s infinite;
+}
+
+@keyframes mover {
+    0%, 100% {top: 30%;}
+    50% {top: 29%;}
+  }

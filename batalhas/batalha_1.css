@@ -1,0 +1,127 @@
+/*-------------JOGADOR-------------*/
+.jogador {
+    position: absolute;
+    height: 250px;
+    top: 54%;
+    left: 30%;
+}
+
+.barra-vida-jogador {
+    height: 20px;
+    width: 100px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+    top: 52%;
+    left: 32%;
+}
+
+.vida-jogador {
+    height: 20px;
+    width: 100px;
+    background-color: rgb(37, 209, 21);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.vida-jogador span {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+    padding-left: 5px;
+}
+
+/*-------------INIMIGO-------------*/
+
+.inimigo-pequeno {
+    position: absolute;
+    height: 250px;
+    top: 54%;
+    right: 30%;
+}
+
+.barra-vida-inimigo {
+    height: 20px;
+    width: 100px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+    top: 52%;
+    right: 35%;
+}
+
+.vida-inimigo {
+    height: 20px;
+    width: 100px;
+    background-color: rgb(37, 209, 21);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.vida-inimigo span {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+    padding-left: 5px;
+}
+
+/*-------------ATAQUES-------------*/
+
+.ataques {
+    position: absolute;
+    background-color: aliceblue;
+    border: 4px solid black;
+    width: 600px;
+    top: 10%;
+    left: 30%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px black;
+    transition: 1s;
+}
+
+.ataque1, .ataque2 {
+    height: 100px;
+}
+
+/*-------------RESULTADO BATALHA-------------*/
+
+.vitoria, .derrota {
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    font-size: 50px;
+    display: none;
+}
+
+/*-------------RESPONSIVIDADE-------------*/
+
+@media screen and (min-width: 1600px) {
+    /*-------------JOGADOR-------------*/
+    .jogador {
+        left: 35%;
+    }
+
+    .barra-vida-jogador {
+        left: 37%;
+    }
+
+    /*-------------INIMIGO-------------*/
+
+    .inimigo-pequeno {
+        right: 32%;
+    }
+
+    .barra-vida-inimigo {
+        right: 36%;
+    }
+
+    /*-------------ATAQUES-------------*/
+
+    .ataques {
+        left: 34%;
+    }
+}

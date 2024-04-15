@@ -1,0 +1,9 @@
+.cenario {
+    height: 700px;
+}
+
+.centralizar-cenario {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
